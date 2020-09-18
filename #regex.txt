@@ -1,2 +1,2 @@
-#regex not valid folder name patter
+#invalid characters for folder name
 [<|>|\||\:|\"|\/|\\|\?|\*]
