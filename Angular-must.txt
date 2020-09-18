@@ -1,0 +1,127 @@
+19-things-you-need-to-learn-to-become-an-effective-angular-developer
+##  What to Google
+=> starting point
+
+1. Modular Angular Architecture
+    ##
+    Angular architecture patterns
+    Scalable angular application architecture
+
+    => https://medium.com/madhash/what-does-modular-architecture-in-angular-even-mean-e2fa986aa007
+
+
+2. One-way Dataflow and Immutability
+    ##  
+    Angular data flow best practices,
+    Uni-directional flow in Angular,
+    Advantages of one way binding
+
+    => https://medium.com/madhash/the-tale-of-unidirectional-dataflow-in-angular-5d0b451cc7aa
+
+3. Attribute and Structural Directives
+    ##  
+    Angular attribute directives,
+    Angular structural directives
+    Angular structural directive patterns
+
+    => https://medium.com/madhash/the-low-down-on-attribute-and-structural-directives-in-angular-d6130eacaf4e
+
+4. Component Life Cycle Hooks
+    ##
+    Angular life cycle hooks
+    Component life cycle    
+
+5. Http and Observable Services
+    ##
+    JavaScript observable patterns
+    Angular HTTP and observables
+    ES7 observable feature
+
+6. Smart/Dumb Component Architecture
+    ##
+    Smart/dumb Angular components
+    Stateless dumb components
+    Presentational components
+    Smart components in Angular
+
+7. Application Structure and Best Practices
+    ##
+    Single repo Angular apps
+    Angular libraries, Angular packages
+    Angular bundles
+    Angular micro apps
+    Monorepo
+
+8. Template Binding Syntax
+    ##
+    Angular property binding
+    Angular event binding
+    Angular two-way binding, Angular interpolation
+    Angular passing constants
+
+9. Feature Modules and Routing
+    ##
+    Angular feature modules
+    Shared feature structures in Angular
+    Feature module providers
+    Lazy loading with routing and feature modules
+
+10. Forms and Validation (Reactive Forms and Validators)
+    ##
+    Angular form validation
+    Template driven validation
+    Reactive form validation
+    Sync and async validators in Angular
+    Built-in validators
+    Angular custom validators
+    Cross-field validation
+
+11. Content Projection
+    ##
+    Angular content projection
+    Angular parent-child view relationship
+    Angular view data relationships
+
+12. onPush Change Detection
+    ##
+    Angular onPush change detection
+
+13. Route Guards, Pre-loads, Lazy-loading
+    ##
+    Angular route guards,
+    Angular authentication patterns
+    Angular preloading and lazy-loading modules
+    Angular secured route patterns
+
+14. Custom Pipes
+    ##
+    Angular custom pipes
+
+15. @viewChild and @ContentChild Decorators
+    ##
+    Angular decorators
+    viewchild and contentchild in Angular
+    Angular component data sharing
+
+16. Dynamic Components and ng-template
+    ##
+    Dynamic components in Angular
+    Dynamic components an ng-templating
+
+17. @Host @Hostbinding and exportAs
+    ##
+    Angular directives patterns,
+    @Host, @Hostbinding and exportAs in Angular
+
+18. State Management with  RxJs NgRx
+    ##
+    Angular RxJs
+    Flux/Redux principles
+    Angular state management principles
+    NgRx - NgRx entiry - NgRx data 
+
+19. Dependency Injection and Zones
+    ##
+    Angular zones
+    Dependency injections
+    Angular DI
