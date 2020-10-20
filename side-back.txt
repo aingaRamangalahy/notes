@@ -1,0 +1,151 @@
+#espace-tana backend
+
+why ?
+# Trouver un endroit à tana pour la récéption des différents évènements 
+professionnels ou familiaux.
+
+
+###
+espace
+###
+- Lister tous les espaces disponnibles
+- Filtrer la liste selon différents critères :
+  - quartier
+  - superficie total
+  - nombre de personne 
+  - salle {
+      superficie
+  }
+  - plein air {
+      superficie
+  }
+  - service traiteur inclus
+  - service animation inclus
+  - moyenne note
+  -* dans un rayon de x km
+- crud espace
+
+
+ ###
+review
+- liste review par espace
+- note en étoil 
+- moyenne note
+- crud review
+###
+
+###
+Users (visiteur, utilisateur, owner, admin)
+###
+- Liste des utilisateurs (admin)
+- crud 
+- login
+- logout
+- forgot password
+- reset password
+
+###
+offre 
+###
+- crud (admin)
+
+
+
+User stories
+------------------------
+
+visiteur :
+ - voir la liste de tous les espaces disponibles
+ - voir détail d'un espace
+ - voir les reviews d'un espace
+ - voir la note moyenne d'un espace
+ - voir contact espace
+ - creer un compte utilisateur
+ - creer un compte owner
+ -* voir calendrier espace
+
+ 
+utilisateur :
+ ++ visiteur
+ - se connecter à son compte utilisateur
+ - noter un espace 
+ - laiser un commentaire , modifier commentaire 
+ -* espace utilisateur 
+ -* contacter directement par message
+ -* voir liste messages 
+ -* recevoir message 
+ -* booker sur calendrier espace
+
+owner :
+ - se connecter à son compte owner
+ - ajouter un ou plusieurs espaces (selon offre choisie)
+ - modifier information sur son espace
+ - supprimer son espace
+ - ne peut pas : 
+    - ajouter commentaire sur son espace
+    - noter son espace
+    - supprimer message sur son espace
+
+ -* espace  owner
+ -* voir les reviews sur son espace
+ -* voir moyenne note sur son espace
+ -* voir tous les messages
+ -* contacter utilisateur
+ -* tableau de bord owner
+
+ admin :
+ - moderer le site 
+ - effacer espace (non formel)
+ - effacer image/message (non formel)
+ - ajouter offre 
+ - modifier offre
+ - supprimer offre
+ - -*tableau de bord admin
+
+
+
+
+
+
+
+
+tech
+----------
+backend  : nodeJs + express
+database : mongoDB
+frontend : angular + ngrx
+
+notions
+---------
+global:
+ - versioning (git) 
+ - remote repository (github/gitlab/bitbucket)
+ -* unit testing
+
+
+devOps :
+ -* container (Docker)
+ -* CI/CD 
+ -* VPS configuration
+ -* PM2
+
+backend : 
+ - scalable node/Express architecture for REST
+ - async handler
+ - error handler
+ - sending email
+ - password crypting
+ - file upload
+ - jsonwebtoken
+ - security and security modules (XSS, )
+ -* websocket
+
+mongoDB: 
+ - complexe query
+ - statics and methods
+ - populate and virtuals
+ - database security (NoSQL injection ...)
+
+frontend: 
+ - scalable angular architecture
+ - ngrx + ngrx data
