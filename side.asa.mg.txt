@@ -1,0 +1,7 @@
+entreprise :
+  trouver le profil idéal pour un post à pourvoir :
+   à partir de QCM établi par l'entreprise (Hard + soft skills)
+   à partir Questionnaire (Hard + soft skills)
+   
+
+  
