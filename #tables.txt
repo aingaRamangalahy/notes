@@ -1,0 +1,14 @@
+#tables
+-mpiadina :id_mpiadina anarana:string  fanampiny:string  fiangonana:string foibe_fanadinana:string toerana_niainana:string  kilasy:string
+ - add mpiadina 
+   - single add
+   - multiple add from excel
+ - get all mpiadina
+ - get single mpiadina
+
+ -get all mpiadina with note 
+
+ - update mpiadina
+   
+-note: id_note matiere1:number ....matierN: number id_mpiadina:number 
+-user
